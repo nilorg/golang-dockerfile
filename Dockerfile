@@ -1,4 +1,4 @@
-FROM golang:1.17.10-alpine
+FROM golang:1.18.6-alpine
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 RUN apk --no-cache add git
 RUN apk --no-cache add gcc
