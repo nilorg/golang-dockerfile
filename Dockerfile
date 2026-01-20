@@ -1,4 +1,4 @@
-FROM golang:1.25.4-alpine
+FROM golang:1.25.5-alpine
 RUN apk --no-cache add git
 RUN apk --no-cache add gcc
 RUN apk --no-cache add libc-dev
