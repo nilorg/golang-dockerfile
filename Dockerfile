@@ -1,4 +1,4 @@
-FROM golang:1.26.10-alpine
+FROM golang:1.26.11-alpine
 ARG TARGETARCH
 RUN apk --no-cache add git
 RUN apk --no-cache add gcc
